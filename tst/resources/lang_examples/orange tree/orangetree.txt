@@ -1,0 +1,18 @@
+// Shape definition
+Let orange1 be an object with shape = circle, size = 30, colour = orange, rotation = 30 degrees
+Let orange2 be an orange1
+Let tree be an object with shape = rectangle, colour = #964b00, size = (10,40)
+
+Let canvas be an object with shape = rectangle, colour = (255,255,255), size = (100,100)
+
+// Composition
+Let tree owns orange1 at (10,30)
+
+// Placement
+Let frame1 be an image on canvas placing orange2 at (50,30) and placing tree at (50,0)
+Let frame2 be an    image    on   canvas    placing    orange2    at    (50, 0) and placing tree at (50,0)
+
+// Animation
+IF Assert that orange2 has size = 30
+     THEN    ANIMATE frame1 -> frame2 FOR 5 seconds
+     ELSE    DRAW frame2

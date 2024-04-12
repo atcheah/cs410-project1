@@ -1,0 +1,33 @@
+# Task 1
+Please draw what you think the program would produce given this input:
+```
+// Shape definition
+Let head be an object with shape = circle, size = 40, colour = yellow
+Let eyeball1 be an object with shape = circle, size = 8, colour = black
+Let eyeball2 be an eyeball1
+Let mouth be an object with shape = rectangle, size = (24, 4), colour = red
+
+Let torso be an object with shape = triangle, size = (80, 100), colour = purple
+Let leg1 be an object with shape = line, size = (8, 20), colour = black
+Let leg2 be an object with shape = line, size = (8, -20), colour = black
+
+Let canvas be an object with shape = rectangle, size = (320, 200), colour = white
+
+// Composition
+Let head own eyeball1 at (8, 20, 0), own eyeball2 at (24, 20, 0), and own mouth at (8, 8, 0)
+
+// Placement
+Let frame be an image on canvas placing head at (140, 132, 1), placing torso at (120, 48, 0), placing leg1 at (132, 28, 0), and placing leg2 at (180, 48, 0)
+
+// Draw/Animate
+DRAW frame
+```
+
+# Task 2
+Given the following animation, please write down what the program input might be:
+
+<img src="fish.gif" width="400" height="400"/>
+
+Some details for your reference:
+
+![img.png](fish_animation_details.png)

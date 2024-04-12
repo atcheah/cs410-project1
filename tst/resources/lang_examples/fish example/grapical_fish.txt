@@ -1,0 +1,16 @@
+// Shape definition
+Let fishtail be an object with shape = rectangle, size = (20, 48), colour = blue
+Let fish be an object with shape = circle, size = 40, colour = orange
+
+Let canvas be an object with shape = rectangle, colour = (173, 216, 230), size = (400,400)
+
+// Composition
+Let fish owns fishtail at (-20, -4, 0)
+
+// Placement
+Let frame1 be an image on canvas placing fish at (50,50,0) and placing fish at (75,100,0)
+Let frame2 be an image on canvas placing fish at (100,50,0), placing fish at (125,150,0)
+Let frame3 be an image on canvas placing fish at (150,50, 0), placing fish at (200, 100 ,0)
+
+// Animation
+ANIMATE frame1 -> frame2 -> frame3 FOR 2 seconds

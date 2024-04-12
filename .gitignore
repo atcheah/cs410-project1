@@ -1,0 +1,6 @@
+gen/*
+out/*
+.idea/*
+*.iml
+lib/*
+
